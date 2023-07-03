@@ -4,6 +4,8 @@
 
 .chat--search {
   margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 .chat--list {
@@ -40,4 +42,14 @@
 .chat--status-text {
   text-align: center;
   color: #888888;
+}
+.srch {
+  width: 30px;
+}
+.chat--search input[type='text'] {
+  width: 300px; /* adjust the width as per your preference */
+  height: 15px; /* adjust the height as per your preference */
+  padding: 10px; /* adjust the padding as per your preference */
+  border-radius: 20px; /* adjust the border-radius as per your preference */
+  border: 1px solid #ccc; /* adjust the border color and width as per your preference */
 }
